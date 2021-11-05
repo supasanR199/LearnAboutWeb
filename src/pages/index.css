@@ -1,0 +1,46 @@
+
+.Home_Top{
+
+    background: url("../images/background3.jpg");
+    height: 800px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    
+}
+
+#interview0{
+    margin-top: 200px;
+    font-size: 5vw;
+    color:orange;
+    text-align: center;
+}
+#interview1 {
+    font-size: 3vw;
+    color:orange;
+    text-align: center;
+}
+#interview2,#interview3,#interview4{
+    font-size: 2vw;
+    color: #000;;
+    text-align: center;
+}
+
+#interview5{
+    margin-top: 120px;
+    font-size: 2vw;
+    color: #000;;
+    text-align: center;
+}
+
+#interview6,#interview7,#interview8{
+    margin-top: 15px;
+    font-size: 2vw;
+    color: #000;;
+    text-align: center;
+}
+ 
