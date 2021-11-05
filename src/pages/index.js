@@ -5,7 +5,17 @@ import './index.css'
 export const Home = () => {
   return (
     <>
-      <div className= "container-flex Home_Top ">
+      <div className= "container-flex Home_Top " style={{
+         background: 'url("/img/background3.jpg")',
+         height: "800px",
+         backgroundPosition: "center",
+         backgroundRepeat: "no-repeat",
+         opacity: 0.4,
+         filter: "alpha(opacity=40)",
+         backgroundSize: "cover",
+         position: "absolute",
+         width: "100%",
+      }}>
         <h1 id= "interview0">เรียนรู้ทักษะแห่งอนาคต</h1>
         <h2 id ="interview1">พัฒนาให้คุณกลายเป็น นักพัฒนาเทคโนโลยีรุ่นใหม่</h2>
         <h3 id = "interview2" >สร้างสรรค์โปรเจคของคุณด้วยหลักสูตร </h3>
